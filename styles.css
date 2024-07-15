@@ -166,10 +166,20 @@ footer {
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     animation: slideInFromLeft 1s ease-out;
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
 }
 
 .hero h3 {
     animation: slideInFromRight 1s ease-out;
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
 }
 
 .content {
