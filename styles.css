@@ -47,6 +47,9 @@ header nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    /**/
+    justify-content: center;
+    align-items: center;
 }
 
 header nav ul li {
@@ -599,11 +602,16 @@ body {
 
     header nav ul {
         flex-direction: row;
+        text-align: center;
     }
 
     header nav ul li {
         margin-left: 0;
-        margin-top: 10px;
+    }
+
+    header nav ul li a {
+        display: flex;
+        align-items: center;
     }
 
     header .logo {
@@ -671,7 +679,7 @@ body {
     }
 
     .language-selector {
-        margin-top: 96px;
+        margin-top: 113px;
         left: auto;
         position: fixed;
     }
