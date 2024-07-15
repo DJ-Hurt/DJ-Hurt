@@ -27,6 +27,8 @@ header {
     top: 0;
     z-index: 1000;
     border-bottom: 50px;
+    min-height: 60px; /* Możesz dostosować wysokość według potrzeb */
+    will-change: transform;
 }
 
 header .container {
