@@ -677,8 +677,12 @@ body {
         margin-top: 150px;
     }
 
+    .gallery-categories {
+        margin-top: 150px;
+    }
+
     .about-image {
-        order: -1; /* Move image to the top */
+        order: -1;
         margin-bottom: 20px;
     }
 
