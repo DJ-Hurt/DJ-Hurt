@@ -63,6 +63,8 @@ header nav ul li a {
     text-decoration: none;
     padding: 5px 10px;
     transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
 }
 
 header nav ul li a .fa-facebook {
@@ -148,7 +150,7 @@ footer {
 }
 
 .hero {
-    background: url('photos/mainPagePicture.webp');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('photos/mainPagePicture.webp');
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -164,7 +166,7 @@ footer {
 .hero h2 {
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 70px;
     animation: slideInFromLeft 1s ease-out;
     text-shadow: 
         -1px -1px 0 #000,  
@@ -175,6 +177,7 @@ footer {
 
 .hero h3 {
     animation: slideInFromRight 1s ease-out;
+    font-size: 20px;
     text-shadow: 
         -1px -1px 0 #000,  
         1px -1px 0 #000,
@@ -595,7 +598,6 @@ body {
     top: 0px !important;
 }
 
-/*Mobile devices*/
 @media (max-width: 1500px) {
     .language-selector {
         margin-top: 58px;
@@ -621,11 +623,6 @@ body {
         margin-left: 0;
     }
 
-    header nav ul li a {
-        display: flex;
-        align-items: center;
-    }
-
     header .logo {
         margin-bottom: 10px;
     }
@@ -633,6 +630,14 @@ body {
     .hero {
         padding: 300px 20px;
         margin-top: 61px;
+    }
+
+    .hero h2{
+        font-size: 50px;
+    }
+
+    .hero h3{
+        font-size: 1.17em;
     }
 
     .container {
@@ -691,7 +696,7 @@ body {
     }
 
     .language-selector {
-        margin-top: 113px;
+        margin-top: 111px;
         left: auto;
         position: fixed;
     }
