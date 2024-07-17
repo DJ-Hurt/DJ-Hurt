@@ -303,7 +303,7 @@ footer {
     max-width: 1200px;
     margin: 20px auto;
     border: 1px solid #ccc;
-    margin-top: 150px;
+    margin-top: 169px;
 }
 
 .contact-info {
@@ -690,18 +690,15 @@ body {
     }
 
     .contact-container{
-        margin-top: 170px;
+        margin-top: 169px;
+        flex-direction: column;
+        text-align: center;
     }
 
     .language-selector {
         margin-top: 111px;
         left: auto;
         position: fixed;
-    }
-
-    .contact-container {
-        flex-direction: column;
-        text-align: center;
     }
 
     .map {
