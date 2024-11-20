@@ -68,6 +68,9 @@ header nav ul li a .fa-facebook {
     color: #fff;
 }
 
+header nav ul li a .fa-instagram {
+    font-size: 20px;
+}
 
 header nav ul li a:hover {
     background-color: #555;
